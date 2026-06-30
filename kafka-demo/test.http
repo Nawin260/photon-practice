@@ -1,0 +1,27 @@
+#### GET request to example server
+#GET https://examples.http-client.intellij.net/get
+#    ?generated-in=IntelliJ IDEA
+
+###
+POST http://localhost:8080/api/v1/orders/create-order
+Content-Type: application/json
+
+{
+  "key": "A105",
+  "product": "Desktop",
+  "quantity": 250
+}
+
+
+####
+POST http://localhost:8080/api/v1/products/create-product
+Content-Type: application/json
+
+{
+    "productName": "IPad",
+    "price": 56789,
+    "quantity": 67
+}
+
+####
+GET http://localhost:8080/api/v1/products/5

@@ -1,0 +1,10 @@
+version: '3'
+services:
+  kafdrop:
+    image: obsidiandynamics/kafdrop
+    restart: always
+    ports:
+      - "9000:9000"
+    environment:
+      KAFKA_BROKERCONNECT: "host.docker.internal:9092"
+      JVM_OPTS: "-Xms32M -Xmx64M"
