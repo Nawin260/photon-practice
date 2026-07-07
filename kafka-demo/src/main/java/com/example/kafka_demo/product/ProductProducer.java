@@ -14,6 +14,5 @@ public class ProductProducer {
     public void send(ProductEvent event) {
         kafkaTemplate.send("product-topic", event.getProductName(), event );
         System.out.println("Sent To Kafka : " + event.getProductName());
-        System.out.println("qwertyuiolkjhgfd");
     }
 }
