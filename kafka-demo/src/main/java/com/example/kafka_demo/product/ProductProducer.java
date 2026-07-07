@@ -19,5 +19,17 @@ public class ProductProducer {
         System.out.println("Sent To Kafka : " + event.getProductName());
         System.out.println("Sent To Kafka : " + event.getProductName());
         System.out.println("qwertyuiolkjhgfd");
+        System.out.println("qwertyuiolkjhgfd");
+        System.out.println("qwertyuiolkjhgfd");
+        System.out.println("qwertyuiolkjhgfd");
+        System.out.println("qwertyuiolkjhgfd");
+        System.out.println("qwertyuiolkjhgfd");
+        System.out.println("qwertyuiolkjhgfd");
+
+        System.out.println("qwertyuiolkjhgfd");
+        System.out.println("qwertyuiolkjhgfd");
+        System.out.println("qwertyuiolkjhgfd");
+        System.out.println("qwertyuiolkjhgfd");
+        System.out.println("qwertyuiolkjhgfd");
     }
 }
